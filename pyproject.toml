@@ -1,14 +1,13 @@
 [tool.poetry]
 name = "asset-name-disambiguator"
 version = "0.1.0"
-description = ""
-authors = ["Emily <ewu@formation.bio>"]
 readme = "README.md"
-packages = [{include = "asset_name_disambiguator"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
 flask = "^3.0.0"
+requests = "^2.31.0"
+selenium = "^4.16.0"
 
 
 [build-system]
