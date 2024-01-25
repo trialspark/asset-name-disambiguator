@@ -7,4 +7,5 @@
 5. If you are having issues with chromedriver being blocked, cd into `/usr/local/bin` and run `xattr -d com.apple.quarantine chromedriver`
 
 ### Endpoints
-* `/synonyms` - takes an asset as a URL parameter and returns all known synonyms for the asset (derived from the Pubchem database) 
+* `/synonyms` - takes an asset as a URL parameter and returns all known synonyms for the asset (derived from the [Pubchem database](https://pubchem.ncbi.nlm.nih.gov/))
+* `/compound-and-brands` - takes an asset as a URL parameter, and returns the compound name (via Pubchem) and all FDA-approved brands with the compound as an active ingredient (derived from [Drugs@FDA](https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm)) 
